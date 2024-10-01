@@ -8,6 +8,8 @@ export default {
         "azul-claro": "var(--azul-claro)",
         branco: "var(--branco)",
         preto: "var(--preto)",
+        customBlueRoyal: '#0017E8',
+        customBlue: '#0166FF',
         },
       fontFamily: {
         'custom': ['Nunito', 'sans-serif'],

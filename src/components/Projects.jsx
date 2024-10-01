@@ -1,7 +1,7 @@
 function Projects() {
   return (
-    <div className="flex flex-col justify-center items-center w-full h-[646px] mt-20 mb-32" id="projects">
-      <h3 className="text-blue-600 text-2x1 font-custom-righteous text-center">
+    <div className="flex flex-col justify-center items-center w-full pb-60" id="projects">
+      <h3 className="text-white text-2x1 font-custom-righteous text-center mt-20 mb-10  border-b-2 border-white inline-block">
         Projetos
       </h3>
       <div className="flex flex-col lg:flex-row place-content-between mt-32">

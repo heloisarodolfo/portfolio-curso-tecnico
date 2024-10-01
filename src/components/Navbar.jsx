@@ -59,14 +59,17 @@ function Navbar() {
   return (
     <header>
       <nav ref={navRef}>
-        <a href="#about" className="font-custom hover:bg-white hover:text-azul hover: p-2 hover:rounded-lg">
+        <a href="#about" className="font-custom hover:bg-white hover:text-violet-900 hover: p-2 hover:rounded-lg">
           Sobre mim
         </a>
-        <a href="#projects" className="font-custom hover:bg-white hover:text-azul hover: p-2 hover:rounded-lg">
+        <a href="#skills" className="font-custom hover:bg-white hover:text-violet-900 hover: p-2 hover:rounded-lg">
+          Skills
+        </a>
+        <a href="#projects" className="font-custom hover:bg-white hover:text-violet-900 hover: p-2 hover:rounded-lg">
           Projetos
         </a>
-        <a href="#footer" className="font-custom hover:bg-white hover:text-azul hover: p-2 hover:rounded-lg">
-          Entre em contato
+        <a href="#contact" className="font-custom hover:bg-white hover:text-violet-900 hover: p-2 hover:rounded-lg">
+          Contato
         </a>
         <button className="nav-btn nav-close-btn" onClick={showNavBar}>
           <CgClose />

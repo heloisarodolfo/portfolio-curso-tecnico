@@ -1,12 +1,10 @@
 function Footer() {
   return (
-    <div className="bg-blue-600 p-16 text-white flex" id='footer'>
-        <p className="font-custom mt-2 mb-6 ml-20 absolute">Desenvolvido por Heloisa Cristina Rodolfo</p>
-        <div className="flex flexrow place-content-between gap-[1000px] ml-20 mt-32 mb-0">
-        <p className="font-bold">ESCOLA SESI</p>
-        <p className="font-bold">SESI SENAI</p>
+    <div className="p-8 text-white" id='footer'>
+        <p className="font-custom text-center">© Heloisa Rodolfo</p>
+        <p className="font-custom text-center"> 2024 | Feito com 💻 e ☕.</p> 
+        <p className="font-custom text-center">Todos os direitos reservados.</p>
         </div>
-    </div>
   );
 }
 
